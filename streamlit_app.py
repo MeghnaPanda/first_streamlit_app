@@ -2,7 +2,7 @@
 
 
 import streamlit
-streamlit.stop()
+
 import snowflake.connector
 import pandas
 import requests
