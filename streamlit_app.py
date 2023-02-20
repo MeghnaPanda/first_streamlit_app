@@ -48,7 +48,7 @@ streamlit.dataframe(fruityvice_normalized)
 
 
 
-add_my_fruit = requests.get("https://fruityvice.com/api/fruit/"+ "jackfruit")
+add_my_fruit = requests.get("https://fruityvice.com/api/fruit/all/")
 #streamlit.text(fruityvice_response)
 
 # write your own comment -what does the next line do? 
